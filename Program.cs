@@ -1,0 +1,13 @@
+﻿int A = (101 + 0) / 3;
+Console.WriteLine(A);
+double B = 3 * Math.Exp(-6) * 10000000.1;
+Console.WriteLine(B);
+bool C = true && true;
+Console.WriteLine(C);
+bool D = false && true;
+Console.WriteLine(D);
+bool E = (false && false) && (false && true);
+Console.WriteLine(E);
+bool F = (false && false) && (true && true);
+Console.WriteLine(F);
+Console.ReadKey();
